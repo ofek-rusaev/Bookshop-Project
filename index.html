@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>You're Bookshop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="onInit()">
+    <header>
+        <h2>Welcome to your shop</h2>
+    </header>
+    
+    <section class="add">
+        <h3><button onclick="onAddBook()">Add Book</button></h3>
+        <section class="book-edit" hidden>
+            <input placeholder="Book Title" type="text" class="txt-title" data-id="" />
+            <input placeholder="Book Price" type="text" class="txt-price" />
+            <button onclick="onSaveBook()">Save</button>
+        </section>
+    </section>
+
+    <table border="1">
+        <thead>
+            <th>ID</th>
+            <th>
+                Book Cover
+            </th>
+            <th class="title">
+                <button onclick="onSortChange(this)" title="Sort by title" data-sort="title">⬇️</button>
+                Title
+            </th>
+            <th>
+                <button onclick="onSortChange(this)" title="Sort by price" data-sort="price">⬇️</button>
+                Price
+            </th>
+            <th colspan="3">Actions</th>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+    <section class="pages-control">
+        <button onclick="onChangePage(-1)">⬅️</button>
+        <span>1</span>
+        <button onclick="onChangePage(1)">➡️</button>
+    </section>
+
+
+    <section class="modal" hidden>
+        <button onclick="onCloseModal()">✖️</button>
+        <h2>Book Details</h2>
+        <h3>Title</h3>
+        <h4>Price</h4>
+        <h5></h5>
+        <p></p>
+        <!-- <h6><button>➖</button><span> </span><button>➕</button></h6> -->
+        <input type="number" min="0" max="10" title="Add rating 0-10" class="txt-rate" />
+        <button class="rate-save" onclick="onRateBook(event)" data-id="">Rate</button>
+        <div class="after-rating" hidden>⭐ Thank you for rating ⭐</div>
+    </section>
+
+    <script src="js/storage-service.js"></script>
+    <script src="js/books-service.js"></script>
+    <script src="js/books-controller.js"></script>
+</body>
+
+</html>

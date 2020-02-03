@@ -1,0 +1,71 @@
+body {
+    background-color: silver;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+    display: inline-block;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 15px;
+}
+
+td {
+    padding: 15px;
+}
+
+img {
+    width: 100px;
+}
+
+p {
+    font-size: small;
+}
+
+.modal img {
+    width: 150px;
+}
+
+.modal {
+    background-color: rgb(167, 250, 167);
+    padding: 10px;
+    width: 400px;
+    /* display: flex; */
+    position: absolute;
+    top: 70px;
+    right: 500px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.after-rating {
+    padding: 15px;
+}
+
+.book-list {
+    background-color: lightyellow;
+    padding: 30px;
+}
+
+.remove {
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.edit {
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.info {
+    background-color: tomato;
+    border-radius: 10px;
+}
+
+.title {
+    min-width: 250px;
+}
+
+.add {
+    padding: 10px;
+}
