@@ -83,21 +83,13 @@ function _createBooks() {
             { title: 'One Hundred Years of Solitude', author: 'Gabriel García Márquez', price: 27.99, imgUrl: `<img src="img/one_hundred_years.jpg" alt="">` },
             { title: 'The Power of Now', author: 'Eckhart Tolle', price: 22.99, imgUrl: `<img src="img/power_o_now.jpg" alt="">` },
             { title: 'The Book of Mirrors', author: 'E. O. Chirovici', price: 17.99, imgUrl: `<img src="img/book_o_mirrors.jpg" alt="">` },
-            { title: 'Conversations with God', author: 'Neale Donald Walsch', price: 24.99, imgUrl: `<img src="img/con_w_god.jpg" alt="">` }]
+            { title: 'Conversations with God', author: 'Neale Donald Walsch', price: 24.99, imgUrl: `<img src="img/con_w_god.jpg" alt="">` },
+            { title: 'Illusions', author: 'Richard Bach', price: 26.99, imgUrl: `<img src="img/illusions.jpg" alt="">` },
+            { title: 'The Four Agreements', author: 'Don Miguel Ruiz', price: 21.99, imgUrl: `<img src="img/the_four_agreements.jpg" alt="">` },
+            { title: 'Veronika Decides to Die', author: 'Paulo Coelho', price: 14.99, imgUrl: `<img src="img/veronica_decides_to_die.jpg" alt="">` }]
                 .map(_createBook);
 
-        // books = [
-        //     _createBook('Less', 'Andrew Sean Greer', 29.99, `<img src="img/less.jpg" alt="">`),
-        //     _createBook('The Alchemist', 'Paulo Coelho', 19.99, `<img src="img/the_alchemit.jpg" alt="">`),
-        //     _createBook('One Hundred Years of Solitude', 'Gabriel García Márquez', 27.99, `<img src="img/one_hundred_years.jpg" alt="">`),
-        //     _createBook('The Power of Now', 'Eckhart Tolle', 19.99, `<img src="img/power_o_now.jpg" alt="">`),
-        //     _createBook('The Book of Mirrors', 'E. O. Chirovici', 17.99, `<img src="img/book_o_mirrors.jpg" alt="">`),
-        //     _createBook('Conversations with God', 'Neale Donald Walsch', 24.99, `<img src="img/con_w_god.jpg" alt="">`)
-        // ];
     }
-    // var books = [{title: 'blah ', price: 232}, {title: 'blala2', price: 343}]
-    //     .map(_createBook);
-
     return books;
 }
 
