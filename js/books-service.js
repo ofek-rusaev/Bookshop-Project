@@ -78,16 +78,16 @@ function _createBooks() {
     if (books) return books;
     else {
         books = [
-            { title: 'Less', author: 'Andrew Sean Greer', price: 29.99, imgUrl: `<img src="img/less.jpg" alt="">` },
-            { title: 'The Alchemist', author: 'Paulo Coelho', price: 19.99, imgUrl: `<img src="img/the_alchemit.jpg" alt="">` },
-            { title: 'One Hundred Years of Solitude', author: 'Gabriel García Márquez', price: 27.99, imgUrl: `<img src="img/one_hundred_years.jpg" alt="">` },
-            { title: 'The Power of Now', author: 'Eckhart Tolle', price: 22.99, imgUrl: `<img src="img/power_o_now.jpg" alt="">` },
-            { title: 'The Book of Mirrors', author: 'E. O. Chirovici', price: 17.99, imgUrl: `<img src="img/book_o_mirrors.jpg" alt="">` },
-            { title: 'Conversations with God', author: 'Neale Donald Walsch', price: 24.99, imgUrl: `<img src="img/con_w_god.jpg" alt="">` },
-            { title: 'Illusions', author: 'Richard Bach', price: 26.99, imgUrl: `<img src="img/illusions.jpg" alt="">` },
-            { title: 'The Four Agreements', author: 'Don Miguel Ruiz', price: 21.99, imgUrl: `<img src="img/the_four_agreements.jpg" alt="">` },
-            { title: 'Veronika Decides to Die', author: 'Paulo Coelho', price: 14.99, imgUrl: `<img src="img/veronica_decides_to_die.jpg" alt="">` }]
-                .map(_createBook);
+            { title: 'Less', author: 'Andrew Sean Greer', price: 29.99, imgUrl: `<img src="./img/less.jpg" alt="">` },
+            { title: 'The Alchemist', author: 'Paulo Coelho', price: 19.99, imgUrl: `<img src="./img/the_alchemit.jpg" alt="">` },
+            { title: 'One Hundred Years of Solitude', author: 'Gabriel García Márquez', price: 27.99, imgUrl: `<img src="./img/one_hundred_years.jpg" alt="">` },
+            { title: 'The Power of Now', author: 'Eckhart Tolle', price: 22.99, imgUrl: `<img src="./img/power_o_now.jpg" alt="">` },
+            { title: 'The Book of Mirrors', author: 'E. O. Chirovici', price: 17.99, imgUrl: `<img src="./img/book_o_mirrors.jpg" alt="">` },
+            { title: 'Conversations with God', author: 'Neale Donald Walsch', price: 24.99, imgUrl: `<img src="./img/con_w_god.jpg" alt="">` },
+            { title: 'Illusions', author: 'Richard Bach', price: 26.99, imgUrl: `<img src="./img/illusions.jpg" alt="">` },
+            { title: 'The Four Agreements', author: 'Don Miguel Ruiz', price: 21.99, imgUrl: `<img src="./img/the_four_agreements.jpg" alt="">` },
+            { title: 'Veronika Decides to Die', author: 'Paulo Coelho', price: 14.99, imgUrl: `<img src="./img/veronica_decides_to_die.jpg" alt="">` }]
+            .map(_createBook);
 
     }
     return books;
